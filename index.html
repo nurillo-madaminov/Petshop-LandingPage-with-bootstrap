@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Petshop - landing page with bootstrap 5.3.3</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="./assets/css/bootstrap.min.css " rel="stylesheet" />
+  </head>
+  <body>
+    <navbar
+      class="navbar py-2 py-lg-0 navbar-expand-lg sticky-top bg-white shadow"
+    >
+      <div class="container-xl d-flex align-items-center">
+        <a href="#intro" class="d-flex align-items-center">
+          <svg
+            width="34"
+            height="34"
+            viewBox="0 0 49 49"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M31.0262 34.3895C30.9191 32.8638 26.0677 27.4475 24.4178 27.4465C22.7699 27.4475 18.2331 32.8178 17.9797 34.9444C17.3716 40.0623 31.3688 39.2599 31.0262 34.3895Z"
+              fill="#F87661"
+              stroke="#F87661"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M16.1 28.3969C13.9283 28.3969 10.6165 19.3272 16.3224 13.6213C20.5838 9.35993 27.4918 9.35993 31.7521 13.6203C37.0613 18.9295 35.2191 27.5634 32.2159 27.5634C30.487 27.5635 27.3926 22.5217 24.2902 22.5207C21.1879 22.5197 18.2718 28.3969 16.1 28.3969Z"
+              fill="#42766C"
+              stroke="#42766C"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span class="navbar-brand fw-bold">Petshop</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end align-items-center"
+          id="main-nav"
+        >
+          <ul class="navbar-nav flex-lg-row gap-lg-4 p-3">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Service</a
+              >
+              <ul class="dropdown-menu position-lg-absolute">
+                <li><a href="#" class="dropdown-item">hello</a></li>
+                <li><a href="#" class="dropdown-item">hello</a></li>
+                <li><a href="#" class="dropdown-item">hello</a></li>
+                <li><a href="#" class="dropdown-item">hello</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Pages</a
+              >
+              <ul class="dropdown-menu position-lg-absolute">
+                <li><a href="#" class="dropdown-item">hello</a></li>
+                <li><a href="#" class="dropdown-item">hello</a></li>
+                <li><a href="#" class="dropdown-item">hello</a></li>
+                <li><a href="#" class="dropdown-item">hello</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Cart</a></li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link btn background-primary text-white ms-lg-4"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </navbar>
+
+    <section id="intro">
+      <div class="container-xl py-4">
+        <div class="row align-items-center">
+          <div class="col text-center text-lg-start">
+            <h1 class="display-4 fw-bold" style="white-space: no-wrap">
+              Your little friend <br />
+              can trust
+            </h1>
+            <p class="lead text-secondary">
+              We believe finding a reliable, professional pet sitter should be
+              easy. So we make sure every member of our Family.
+            </p>
+            <a href="#" class="btn text-white background-primary">Contact us</a>
+          </div>
+          <div
+            class="col d-none justify-content-center align-items-center d-lg-flex gap-4"
+          >
+            <div
+              class="small-pill opacity-25 rounded-top-pill rounded-bottom-pill"
+            ></div>
+            <div
+              class="big-pill opacity-25 rounded-top-pill rounded-bottom-pill"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="stats">
+      <div
+        class="container-xl text-white background-primary d-flex align-items-center justify-content-around py-5 flex-wrap until-lg-no-radius"
+      >
+        <div class="stat" style="width: 15%">
+          <div>
+            <p class="m-0">Customer</p>
+            <h2 class="m-0">12788+</h2>
+          </div>
+        </div>
+        <div class="stat" style="width: 15%">
+          <div>
+            <p class="m-0">Adopted</p>
+            <h2 class="m-0">3832+</h2>
+          </div>
+        </div>
+        <div class="stat" style="width: 15%">
+          <div>
+            <p class="m-0">Happy</p>
+            <h2 class="m-0">99k+</h2>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column flex-sm-row align-items-center gap-3 ps-0 ps-lg-5 mt-5 mt-lg-0 testimonial"
+          style="width: 448px"
+        >
+          <div class="rounded-pill image" style="--bg-color: #fee4df"></div>
+          <div class="text-center text-sm-start">
+            <h4>Our Testimoni</h4>
+            <p class="m-0">
+              We adopted our puppy. Althought I was skeptical, everything turned
+              out perfect!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="py-5">
+      <h1 class="text-center">Our Service</h1>
+      <p class="text-center m-auto" style="width: 400px;">
+        We believe finding a reliable, professional pet sitter should be easy.
+        So we make sure every member of our Family.
+      </p>
+      <div
+        class="d-flex overflow-auto gap-5 mt-5"
+        style="padding-left: 100px; padding-right: 100px; scrollbar-width: none"
+      >
+        <div class="custom-card d-flex gap-3 rounded-4 flex-shrink-0">
+          <div class="image rounded-pill" style="--bg-color: #fdd1ca"></div>
+          <div>
+            <h3>Dog pet visit</h3>
+            <p class="text-secondary">
+              We adopted our puppy. Althought I was skeptical, everything turned
+              out perfect!
+            </p>
+            <a class="btn background-primary text-white">Details</a>
+          </div>
+        </div>
+        <div class="custom-card d-flex gap-3 rounded-4 flex-shrink-0">
+          <div class="image rounded-pill" style="--bg-color: #fdd1ca"></div>
+          <div>
+            <h3>Dog pet visit</h3>
+            <p class="text-secondary">
+              We adopted our puppy. Althought I was skeptical, everything turned
+              out perfect!
+            </p>
+            <a class="btn background-primary text-white">Details</a>
+          </div>
+        </div>
+        <div class="custom-card d-flex gap-3 rounded-4 flex-shrink-0">
+          <div class="image rounded-pill" style="--bg-color: #fdd1ca"></div>
+          <div>
+            <h3>Dog pet visit</h3>
+            <p class="text-secondary">
+              We adopted our puppy. Althought I was skeptical, everything turned
+              out perfect!
+            </p>
+            <a class="btn background-primary text-white">Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="./assets/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
